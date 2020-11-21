@@ -43,8 +43,8 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.7.1)
       jekyll (>= 3.8, < 5.0)
-    jekyll-tagging (1.1.0)
-      nuggets
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.3.0)
@@ -58,7 +58,6 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
-    nuggets (1.6.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
@@ -81,7 +80,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 2.1.4)
   jekyll-dash!
-  jekyll-tagging
+  jekyll-sitemap
   kramdown-parser-gfm
   liquid-md5
   rake (~> 12.0)
